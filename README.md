@@ -4,6 +4,8 @@ Objectif
 RADAR_METIER est une application web interactive permettant de prédire un métier à partir des compétences sélectionnées.
 Cette interface (HTML / CSS / JavaScript) communique directement avec une API FastAPI hébergée sur Render pour fournir les résultats de prédiction.
 
+# Lien render pour interface web: https://radar-metier-zh10.onrender.com/
+
 ## Structure du projet
 frontend/
 
