@@ -6,7 +6,7 @@ Cette interface (HTML / CSS / JavaScript) communique directement avec une API Fa
 
 ## Structure du projet
 frontend/
-│
+
 ├── index.html          # Page principale de l'application
 
 ├── style.css           # Feuille de style principale
