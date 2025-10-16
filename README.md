@@ -23,9 +23,13 @@ Lien Render: https://radar-metier.onrender.com/docs
 backend/
 │
 ├── main.py             # Code principal FastAPI
+
 ├── requirements.txt    # Dépendances Python
+
 ├── Dockerfile          # Dockerfile pour déploiement
+
 ├── .env.example        # Exemple de configuration des variables d'environnement
+
 └── README.md           # Documentation
 
 Variables d’environnement
