@@ -8,8 +8,11 @@ Cette interface (HTML / CSS / JavaScript) communique directement avec une API Fa
 frontend/
 │
 ├── index.html          # Page principale de l'application
+
 ├── style.css           # Feuille de style principale
+
 ├── script.js           # Logique côté client (interaction avec l'API)
+
 └── README.md           # Documentation du front-end
 
 Installation et exécution en local
