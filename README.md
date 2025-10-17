@@ -5,7 +5,8 @@ RADAR_METIER est une application web interactive permettant de prédire un méti
 Cette interface (HTML / CSS / JavaScript) communique directement avec une API FastAPI hébergée sur Render pour fournir les résultats de prédiction.
 
 # Lien render pour interface web: https://radar-metier-zh10.onrender.com/
-
+Lancer d'abord le back-end avec l'URL: https://radar-metier.onrender.com/docs
+pour que le front end via l'interface web puisse être fonctionnel.
 ## Structure du projet
 frontend/
 
