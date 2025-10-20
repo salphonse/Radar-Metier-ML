@@ -1,22 +1,19 @@
 # RADAR_METIER – Interface Front-End
-Objectif
+## Objectif
 
 RADAR_METIER est une application web interactive permettant de prédire un métier à partir des compétences sélectionnées.
 Cette interface (HTML / CSS / JavaScript) communique directement avec une API FastAPI hébergée sur Render pour fournir les résultats de prédiction.
 
 # Lien render pour interface web: https://radar-metier-zh10.onrender.com/
-Lancer d'abord le back-end avec l'URL: https://radar-metier.onrender.com/docs
-pour que le front end via l'interface web puisse être fonctionnel.
+
 ## Structure du projet
+```
 frontend/
-
 ├── index.html          # Page principale de l'application
-
 ├── style.css           # Feuille de style principale
-
 ├── script.js           # Logique côté client (interaction avec l'API)
-
 └── README.md           # Documentation du front-end
+```
 
 Installation et exécution en local
 Cloner le projet
@@ -63,11 +60,13 @@ Clique sur “New +” → “Static Site”
 Connecte ton dépôt GitHub contenant le front-end
 
 2. Paramètres Render
-Paramètre	Valeur
-Root Directory	/
-Publish Directory	/
-Build Command	(laisser vide)
-Environment	Static Site
+
+| Paramètre	| Valeur |
+|-----------|--------|
+| Root Directory | / |
+| Publish Directory | / |
+| Build Command | (laisser vide) |
+| Environment | Static Site |
 
 ## Détails techniques
 
