@@ -1,5 +1,5 @@
 # RADAR_METIER – Backend API
-Objectif
+## Objectif
 
 Cette API FastAPI fournit les endpoints nécessaires pour le projet RADAR_METIER, permettant de :
 
@@ -20,35 +20,32 @@ Prédire les métiers en fonction des compétences sélectionnées par l’utili
 - Sur Render via Docker
 
 - Structure du projet
+```
 backend/
-│
 ├── main.py             # Code principal FastAPI
-
 ├── requirements.txt    # Dépendances Python
-
 ├── Dockerfile          # Dockerfile pour déploiement
-
 ├── .env.example        # Exemple de configuration des variables d'environnement
-
 └── README.md           # Documentation
+```
 
-Variables d’environnement
+- Variables d’environnement
 
 Créer un fichier .env à la racine du projet basé sur .env.example :
+```
+# PostgreSQL
+DB_USER=****  
+DB_PASSWORD=****  
+DB_HOST=****  
+DB_NAME=****  
+DB_SCHEMA=radarmetier  
 
-### PostgreSQL
-DB_USER=****
-DB_PASSWORD=****
-DB_HOST=****
-DB_NAME=****
-DB_SCHEMA=radarmetier
-
-### S3 Supabase
-S3_ACCESS_KEY_ID=****
-S3_SECRET_ACCESS_KEY=****
-S3_ENDPOINT_URL=****
-S3_REGION=****
-
+# S3 Supabase
+S3_ACCESS_KEY_ID=****  
+S3_SECRET_ACCESS_KEY=****  
+S3_ENDPOINT_URL=****  
+S3_REGION=****  
+```
 
 Ces variables sont nécessaires pour la connexion à la base PostgreSQL et au bucket S3 contenant le modèle ML.
 Lors du déploiement sur Render, ces variables doivent être renseignées dans les Environment Variables du service.
