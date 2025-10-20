@@ -98,15 +98,13 @@ Render utilisera automatiquement le port défini par la variable PORT pour expos
 
 ### Endpoints principaux
 
-GET / : Vérifie que l’API est opérationnelle
+| Method | End point | Description |
+|--------|-----------|-------------| 
+| GET    | /         | Vérifie que l’API est opérationnelle |
+| GET    | /init     | Charge les données depuis la DB et S3 |
+| POST   | /get_domaine_competence | Retourne la liste des domaines de compétences |
+| POST   | /get_macro_competence | Retourne la liste des macro-compétences filtrées par domaine |
+| POST   | /get_competence | Retourne la liste des compétences filtrées par macro-compétence |
+| POST   | /predict | Prédit les métiers en fonction des compétences sélectionnées |
 
-GET /init : Charge les données depuis la DB et S3
-
-POST /get_domaine_competence : Retourne la liste des domaines de compétences
-
-POST /get_macro_competence : Retourne la liste des macro-compétences filtrées par domaine
-
-POST /get_competence : Retourne la liste des compétences filtrées par macro-compétence
-
-POST /predict : Prédit les métiers en fonction des compétences sélectionnées
 
